@@ -1,0 +1,6 @@
+<resources>
+  <!-- We'll use 'background' name to reference this color -->
+  <color name="splashColor">#EBEAEA</color>
+  <color name="backgroundColor">#000000</color>
+  <color name="primary_dark">#000000</color>
+</resources>

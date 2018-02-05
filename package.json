@@ -1,0 +1,41 @@
+{
+  "name": "LetsDoApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.0",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-native": "0.52.2",
+    "react-native-easy-toast": "^1.0.9",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-router-flux": "^4.0.0-beta.24",
+    "react-native-splash-screen": "^3.0.6",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.0.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.0.4",
+    "react-test-renderer": "16.0.0",
+    "redux-mock-store": "^1.5.1"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!(jest-)?react-native|react-navigation|mobx-react)"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  }
+}
